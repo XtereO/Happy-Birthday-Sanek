@@ -39,7 +39,7 @@ function App() {
     <HashRouter>
       <div>
         <Header/>
-        <div style={{height}} className="body pt-3">
+        <div style={{height}}>
         <Switch>
           <Route path="/desire" 
           render={()=><Desire isPC={isPC} />}/>
